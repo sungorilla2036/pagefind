@@ -47,11 +47,11 @@ const pagefind = await import("/pagefind/pagefind.js");
 
 Defaults to "/". If hosting a site on a subpath, `baseUrl` can be provided, and will be appended to the front of all search result URLs.
 
-### Bundle path
+### Base path
 
 ```json
 {
-    "bundlePath": "/subpath/pagefind/"
+    "basePath": "/subpath/pagefind/"
 }
 ```
 
